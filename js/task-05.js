@@ -4,7 +4,7 @@ textInput.addEventListener("input", (event) => {
   textOutput.textContent = event.currentTarget.value;
 });
 textInput.addEventListener("input", (event) => {
-  if (textInput.textContent = "") {
-    return textOutput.textContent;
+  if (textInput.value === "") {
+    return textOutput.textContent = "Anonymous";
   }
 })
